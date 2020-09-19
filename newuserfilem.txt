@@ -1,1 +1,2 @@
 New user for push to master
+Rest API and SOAP APIREST API has no has no official standard at all because it is an architectural style. SOAP API, on the other hand, has an official standard because it is a protocol.
