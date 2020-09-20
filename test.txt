@@ -1,0 +1,4 @@
+hello
+Added new line to have changes and to commit them
+My name is Margarit. Commiting the file. Thank you.
+Hello Margarit,my name is Anahit.Nice to meet you.
