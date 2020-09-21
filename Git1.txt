@@ -1,0 +1,23 @@
+cd Folder1/Folder2/Repository
+ls
+git clone <Remote Repository link>
+ls
+cd Remote Repository name
+ls
+git status
+git branch
+git branch NameOfBranch
+ls
+git branch
+git checkout NameOfBranch
+git status
+ls
+git push origin NameOfBranch
+vi .
+git status
+git add .
+git status
+git commit -m "comment message"
+git push --set-upstream origin NameOfBranch
+create pull request
+
