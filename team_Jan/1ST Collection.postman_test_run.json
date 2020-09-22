@@ -1,0 +1,203 @@
+{
+	"id": "e68e72af-b5f3-49bb-b14a-fcdf3e884d8b",
+	"name": "1ST Collection",
+	"timestamp": "2020-09-19T20:11:05.652Z",
+	"collection_id": "38e0353c-d799-4f58-9ef7-da469744cbfc",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 9,
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "561a59fc-cb42-46ba-9404-c62862d1c00f",
+			"name": "https://reqres.in/?fbclid=IwAR2FFiKeuvNsGj-jaXQxfenDOlkBMp0XeBMHQU4ZSyzNL9DgdTHE0I0cDBQ",
+			"url": "https://reqres.in/?fbclid=IwAR2FFiKeuvNsGj-jaXQxfenDOlkBMp0XeBMHQU4ZSyzNL9DgdTHE0I0cDBQ",
+			"time": 21,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				21
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "ae6e49d8-8795-46f2-b380-f8380c5efcba",
+			"name": "https://reqres.in/api/users/2",
+			"url": "https://reqres.in/api/users/2",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "cc8857a2-c8c2-454c-80de-acdc75922267",
+			"name": "Post req",
+			"url": "https://reqres.in/api/users",
+			"time": 194,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				194
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "1cd7a11d-b180-4363-abeb-908ec619663c",
+			"name": "UNS register",
+			"url": "https://reqres.in/api/register",
+			"time": 101,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				101
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "a4d221f5-d9fa-4487-b8d2-ce9301c6b5ac",
+			"name": "CREATE",
+			"url": "https://reqres.in/api/user2",
+			"time": 108,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Body is correct": false,
+				"Response time is less than 200ms": true,
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				108
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Body is correct": false,
+					"Response time is less than 200ms": true,
+					"Successful POST request": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 435,
+	"collection": {
+		"requests": [
+			{
+				"id": "561a59fc-cb42-46ba-9404-c62862d1c00f",
+				"method": "GET"
+			},
+			{
+				"id": "ae6e49d8-8795-46f2-b380-f8380c5efcba",
+				"method": "GET"
+			},
+			{
+				"id": "cc8857a2-c8c2-454c-80de-acdc75922267",
+				"method": "POST"
+			},
+			{
+				"id": "1cd7a11d-b180-4363-abeb-908ec619663c",
+				"method": "POST"
+			},
+			{
+				"id": "a4d221f5-d9fa-4487-b8d2-ce9301c6b5ac",
+				"method": "POST"
+			}
+		]
+	}
+}
